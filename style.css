@@ -1,0 +1,67 @@
+body {
+    margin-left: 30%;
+    margin-right: 30%;
+    background-image: url(Images/harrisburg_outline2.jpg);
+    background-repeat:no-repeat;
+    }
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.centertext {
+    height: 300px;
+    line-height:100px;
+    text-align:center;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    background-color: #4F5D75;
+    font-size: 50px;
+}
+
+.topnav {
+    position: relative;
+    background-color: #4F5D75;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 48px 30px 48px 30px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.topnav-centered a { 
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+.topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+.topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
