@@ -2,21 +2,24 @@ body {
     margin-left: 30%;
     margin-right: 30%;
     background-image: url(Images/harrisburg_outline2.jpg);
-    background-repeat:no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 
+h1{
+    background-color: #4F5D75;
+    color: white;
+}
 .responsive {
     max-width: 100%;
     height: auto;
 }
 
 .centertext {
-    height: 300px;
     line-height:100px;
     text-align:center;
     font-family: 'Inconsolata', monospace;
-    color: white;
-    background-color: #4F5D75;
     font-size: 50px;
 }
 
@@ -35,8 +38,8 @@ body {
     color: #f2f2f2;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
-    padding: 48px 30px 48px 30px;
+    font-size: 15px;
+    padding: 50px 20px 50px 20px;
     font-family: 'Oxygen', sans-serif;
 }
 
