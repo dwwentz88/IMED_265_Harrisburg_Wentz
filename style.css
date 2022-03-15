@@ -1,10 +1,15 @@
-body {
-    margin-left: 30%;
-    margin-right: 30%;
+html {
+    min-height: 100%;
     background-image: url(Images/harrisburg_outline2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+body {
+    margin-left: 25%;
+    margin-right: 25%;
     }
 
 h1{
@@ -20,7 +25,7 @@ h1{
     line-height:100px;
     text-align:center;
     font-family: 'Inconsolata', monospace;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .topnav {
@@ -38,7 +43,7 @@ h1{
     color: #f2f2f2;
     text-align: center;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     padding: 50px 20px 50px 20px;
     font-family: 'Oxygen', sans-serif;
 }
