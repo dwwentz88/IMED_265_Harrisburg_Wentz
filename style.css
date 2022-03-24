@@ -1,75 +1,70 @@
-html {
-    min-height: 100%;
-    background-image: url(Images/harrisburg_outline2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
 }
-
 
 body {
-    margin-left: 25%;
-    margin-right: 25%;
-    }
-
-h1{
-    background-color: #4F5D75;
-    color: white;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    background-image: url(Images/blue%20hburgoutline3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+.cover-container {
+  max-width: 60em;
+}
+
+.nav-logo {
+    height: 2.4em;
+    width: 2.4em;
+}
+
+.center-summary-text {
+    margin-bottom: 35em;
+}
+
+.center-statement {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.grid-center {
+    margin-bottom: 30em;
+}
+
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
 .responsive {
     max-width: 100%;
     height: auto;
-}
-
-.centertext {
-    line-height:100px;
-    text-align:center;
-    font-family: 'Inconsolata', monospace;
-    font-size: 30px;
-}
-
-.topnav {
-    position: relative;
-    background-color: #4F5D75;
-    overflow: hidden;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    
-}
-
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 50px 20px 50px 20px;
-    font-family: 'Oxygen', sans-serif;
-}
-
-.topnav-centered a { 
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.topnav-right {
-    float: right;
-}
-
-@media screen and (max-width: 600px) {
-.topnav a, .topnav-right {
-    float: none;
-    display: block;
-  }
-
-.topnav-centered a {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-  }
 }
