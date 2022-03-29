@@ -16,7 +16,10 @@ body {
 .left{
     text-align: left;
 }
-
+.img-small{
+    width: 12em;
+    height: 12em;
+}
 .right{
     text-align: right;
 }
@@ -30,7 +33,7 @@ body {
 }
 
 .center-summary-text {
-    margin-bottom: 35em;
+    margin-bottom: 18em;
 }
 
 .center-statement {
@@ -38,7 +41,7 @@ body {
 }
 
 .grid-center {
-    margin-bottom: 30em;
+    margin-bottom: 15em;
 }
 
 
