@@ -8,11 +8,24 @@
 
 body {
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    background-image: url(Images/blue%20hburgoutline3.jpg);
+    background-image: url(Images/blue%20hburgoutline-long2.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.maintxt {
+    background-image: url(Images/hburg_past-now.jpg);
+    background-size: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .left{
     text-align: left;
 }
@@ -33,15 +46,20 @@ body {
 }
 
 .center-summary-text {
-    margin-bottom: 18em;
+    margin-bottom: 35em;
 }
 
 .center-statement {
     font-family: 'Fira Sans', sans-serif;
 }
+.center-image {
+    margin-bottom: 21em;
+}
 
 .grid-center {
-    margin-bottom: 15em;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    border: 0.5em solid white;
+    margin-bottom: 28em;
 }
 
 
