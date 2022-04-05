@@ -6,25 +6,52 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
+html {
+    background-color: #4e5e75;
+}
+
 body {
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    background-image: url(Images/blue%20hburgoutline-long2.png);
+    background: url('Images/blue%20hburgoutline3.jpg'), #4e5e75;
     background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .maintxt {
     background-image: url(Images/hburg_past-now.jpg);
     background-size: cover;
 }
 
+image-size-medium {
+    max-width: 50%;
+}
+
 .centered {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.text-img {
+    margin-bottom: 10%;
+}
+
+.centered-img {
+    margin-top: 2%;
+    margin-bottom: 38%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
 
 .left{
     text-align: left;
@@ -58,8 +85,7 @@ body {
 
 .grid-center {
     padding: 1.5em 1.5em 1.5em 1.5em;
-    border: 0.5em solid white;
-    margin-bottom: 28em;
+    margin-bottom: 25%;
 }
 
 
