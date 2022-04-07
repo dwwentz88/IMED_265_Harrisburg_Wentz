@@ -19,14 +19,10 @@ body {
 }
 
 
-.maintxt {
-    background-image: url(Images/hburg_past-now.jpg);
-    background-size: cover;
-}
-
 image-size-medium {
     max-width: 50%;
 }
+
 
 .centered {
   position: absolute;
@@ -36,8 +32,11 @@ image-size-medium {
 }
 
 .text-img {
+    margin-top:105%;
     margin-bottom: 10%;
 }
+
+
 
 .centered-img {
     margin-top: 2%;
@@ -85,7 +84,7 @@ image-size-medium {
 
 .grid-center {
     padding: 1.5em 1.5em 1.5em 1.5em;
-    margin-bottom: 25%;
+    margin-bottom: 53%;
 }
 
 
